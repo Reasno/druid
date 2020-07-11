@@ -11,7 +11,7 @@ composer require reasno/druid
 publish the configuration:
 
 ```bash
-php bin/hyperf vendor:publish reasno/druid-client
+php bin/hyperf vendor:publish reasno/druid
 ```
 
 Then you can inject `Level23\Druid\DruidClient` anywhere via standard Hyperf DI, and enjoy coroutine connections to druid.
